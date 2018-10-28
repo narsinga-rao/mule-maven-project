@@ -75,6 +75,7 @@
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		
 		<!-- Mule Transports -->
 		<dependency>
 			<groupId>org.mule.transports</groupId>
@@ -106,6 +107,7 @@
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		
 		<!-- Mule Modules -->
 		<dependency>
 			<groupId>org.mule.modules</groupId>
@@ -119,6 +121,7 @@
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		
 		<!-- non-mule dependencies -->
 		<dependency>
 			<groupId>org.apache.derby</groupId>
@@ -140,6 +143,7 @@
 			<artifactId>activemq-kahadb-store</artifactId>
 			<version>${activemq.version}</version>
 		</dependency>
+		
 		<!-- for testing -->
 		<dependency>
 			<groupId>org.mule.tests</groupId>
